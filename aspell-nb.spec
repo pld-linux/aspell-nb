@@ -13,6 +13,7 @@ URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 0.50.0
 Requires:	aspell >= 0.50.0
 Provides:	aspell-no = %{epoch}:%{version}-%{release}
+Obsoletes:	aspell-no
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
