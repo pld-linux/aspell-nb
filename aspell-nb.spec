@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Norwegian Bokmaal dictionary (i.e. word list) for aspell.
 
 %description -l pl
-S³ownik norweski (bokmaal) (lista s³ów) dla aspella.
+S³ownik (lista s³ów) norweski (bokmaal) dla aspella.
 
 %prep
 %setup -q -n %{name}-%{version}-%{subv}
