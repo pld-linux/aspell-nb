@@ -3,7 +3,7 @@ Summary(pl):	Norweski s³ownik dla aspella
 Name:		aspell-nb
 Version:	0.50.1
 %define	subv	0
-Release:	1
+Release:	2
 Epoch:		1
 License:	GPL
 Group:		Applications/Text
@@ -12,6 +12,7 @@ Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/nb/%{name}-%{version}-%{subv}.tar.bz2
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 0.50.0
 Requires:	aspell >= 0.50.0
+Provides:	aspell-no = %{epoch}:%{version}-%{release}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
