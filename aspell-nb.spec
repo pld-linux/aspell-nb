@@ -1,5 +1,5 @@
 Summary:	Norwegian Bokmaal dictionary for aspell
-Summary(pl.UTF-8):   Słownik norweski (bokmaal) dla aspella
+Summary(pl.UTF-8):	Słownik norweski (bokmaal) dla aspella
 Name:		aspell-nb
 Version:	0.50.1
 %define	subv	0
