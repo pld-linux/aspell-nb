@@ -1,5 +1,5 @@
 Summary:	Norwegian Bokmaal dictionary for aspell
-Summary(pl):	S≥ownik norweski (bokmaal) dla aspella
+Summary(pl.UTF-8):   S≈Çownik norweski (bokmaal) dla aspella
 Name:		aspell-nb
 Version:	0.50.1
 %define	subv	0
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Norwegian Bokmaal dictionary (i.e. word list) for aspell.
 
-%description -l pl
-S≥ownik norweski (bokmaal) (lista s≥Ûw) dla aspella.
+%description -l pl.UTF-8
+S≈Çownik norweski (bokmaal) (lista s≈Ç√≥w) dla aspella.
 
 %prep
 %setup -q -n %{name}-%{version}-%{subv}
