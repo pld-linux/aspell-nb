@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Słownik norweski (bokmaal) dla aspella
 Name:		aspell-nb
 Version:	0.50.1
 %define	subv	0
-Release:	3
+Release:	4
 Epoch:		1
 License:	GPL
 Group:		Applications/Text
