@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Słownik norweski (bokmaal) dla aspella
 Name:		aspell-nb
 Version:	0.50.1
 %define	subv	0
-Release:	5
+Release:	6
 Epoch:		1
 License:	GPL
 Group:		Applications/Text
@@ -37,6 +37,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
+
+%{__mv} $RPM_BUILD_ROOT%{_prefix}/lib/aspell/{bokm$'\345'l,bokmål}.alias
 
 %clean
 rm -rf $RPM_BUILD_ROOT
